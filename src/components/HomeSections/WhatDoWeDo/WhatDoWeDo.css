@@ -1,0 +1,31 @@
+#whatDoWeDo_container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.whatDoWeDo_text{
+    height: 30px;
+}
+
+.whatDoWeDo_icon{
+    font-size: 5rem;
+    margin-bottom: 15px;
+}
+
+.whatDoWeDo_icon_container{
+    padding: 20px;
+    border-radius: 0 30px 0 30px;
+}
+
+.whatDoWeDo_icon_container:hover{
+    cursor: pointer;
+    background-color: rgb(0, 110, 255);
+    animation-name: example;
+    animation-duration: 1.5s;
+}
+
+@keyframes example {
+    from {background-color: rgba(0, 0, 0, 0);}
+    to {background-color: rgb(0, 110, 255);}
+  }

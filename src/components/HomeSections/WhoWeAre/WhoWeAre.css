@@ -1,0 +1,31 @@
+#whoWeAre_container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../../../media/whoweare.jpg);
+}
+
+#whoWeAre_content {
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 0 50px 0 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 80%;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1000px) {
+    #whoWeAre_content {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #whoWeAre_content {
+        font-size: 0.6rem;
+    }
+}

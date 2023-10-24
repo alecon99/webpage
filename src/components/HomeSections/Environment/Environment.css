@@ -1,0 +1,27 @@
+#environment_container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../../../media/environment.jpg);
+    color: white;
+}
+
+#environment_content{
+    text-align: center;
+    z-index: 1;
+    font-size: 1.5rem;
+    width: 80%;
+    border-radius: 0 50px 0 50px;
+    background-color: rgb(86, 124, 89);
+    position:absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 768px) {
+    #environment_content {
+        font-size: 1rem;
+    }
+  }

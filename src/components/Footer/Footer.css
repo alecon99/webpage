@@ -1,0 +1,8 @@
+.footer_icon{
+    font-size: 2rem;
+}
+
+.footer_icon:hover{
+    transform: scale(1.1);
+    color: rgb(164, 164, 164) !important;
+}
