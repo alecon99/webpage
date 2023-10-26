@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#logo{
+  height: 50px;
+}
+
+.hover_link_blue:hover{
+  color: #0078C7 !important;
+  cursor: pointer;
+}
+
+.blue{
+  color: #0078C7 ;
+}
+
+.bg_blue_hover:hover{
+  background-color: #0078C7;
+}

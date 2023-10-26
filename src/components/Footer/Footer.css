@@ -1,8 +1,11 @@
 .footer_icon{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
-.footer_icon:hover{
-    transform: scale(1.1);
-    color: rgb(164, 164, 164) !important;
+.progress{
+    height: 4px;
+}
+
+.progress-bar{
+    background-color: #0078C7;
 }

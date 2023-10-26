@@ -1,8 +1,10 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
 
 import '../Jumbotron/Jumbotron.css'
 
-import { Col, Container, Row } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+
 
 import image2 from '../../../media/prodotti_jumbotron/IMG_0760-scaled.jpeg'
 import image1 from '../../../media/prodotti_jumbotron/IMG_1603-scaled.jpg'
@@ -13,14 +15,12 @@ const Jumbotron = () => {
 
   return (
     <div className='bg-dark' id='jumbotron_container'>
-      <div className='d-flex' >
-        <div className='jumbotron_items bg-danger'>
-
+      <img src={image4} alt="" id='jumbotron_background' />
+      <div id='jumbotron_text' className='text-center px-3'>
+        Lamier Group S.r.l.
+        <div id='text_border'></div>
         </div>
-        <div className='jumbotron_items bg-success'>
-            
-        </div>
-      </div>
+      <div id='jumbotron_button'><FontAwesomeIcon icon={faChevronDown} className='text-white fs-3' /></div>
     </div>
   )
 }

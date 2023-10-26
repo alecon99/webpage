@@ -8,9 +8,9 @@ import '../WhatDoWeDo/WhatDoWeDo.css'
 
 const WhatDoWeDo = () => {
   return (
-    <div id='whatDoWeDo_container' className='bg-dark text-white d-flex align-items-center text-center'>
-      <Container >
-        <h1 className='mb-5 pb-5'>Cosa facciamo</h1>
+    <div className='bg-dark text-white d-flex align-items-center text-center pb-5'>
+      <Container className='py-5'>
+        <h1 className='mb-5'>Cosa facciamo</h1>
         <Row>
           <Col sm={6} xl={3}>
             <div className='whatDoWeDo_icon_container d-flex flex-column justify-content-center'>
