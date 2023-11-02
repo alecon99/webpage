@@ -7,6 +7,7 @@ import { faAddressBook, faBars, faBox, faImages, faXmark } from '@fortawesome/fr
 import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 import logo from '../../media/1.png'
+import { Link } from 'react-router-dom'
 
 const NavigationBar = () => {
 
@@ -18,9 +19,9 @@ const NavigationBar = () => {
   return (
     <div className='bg-black fixed-top'>
       <Container className='d-flex py-2 align-items-center justify-content-between text-white'>
-        <a href="#">
+        <Link to={'/'}>
           <img id='logo' src={logo} alt="logo" />
-        </a>
+        </Link>
         <div className='d-md-none'>
           <div onClick={handleShow}>
             <FontAwesomeIcon icon={faBars} className='fs-1' />
@@ -58,7 +59,7 @@ const NavigationBar = () => {
         </div>
         <div className='d-flex d-none d-md-block'>
           <a href='#Galleria_impianti' className='text-decoration-none text-white hover_link_blue'>Galleria impianti</a>
-          <a href='#Prodotti' className='text-decoration-none text-white mx-5 hover_link_blue'>Prodotti</a>
+          <Link to={'/products'} className='text-decoration-none text-white mx-5 hover_link_blue'>Prodotti</Link>
           <a href='#Contatti' className='text-decoration-none text-white hover_link_blue'>Contatti</a>
         </div>
       </Container>

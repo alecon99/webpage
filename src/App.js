@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './page/HomePage';
-import Prova from './page/Prova';
+import Products from './page/Products';
 
 
 
@@ -14,8 +14,8 @@ function App() {
             element={<HomePage />}
           />
           <Route
-            path='/prova'
-            element={<Prova />}
+            path='/products'
+            element={<Products />}
           />
         </Routes >
       </BrowserRouter>
