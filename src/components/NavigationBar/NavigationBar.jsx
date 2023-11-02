@@ -38,10 +38,10 @@ const NavigationBar = () => {
                   <FontAwesomeIcon icon={faImages} className='me-3' />
                   Galleria impianti
                 </a>
-                <a href='#Prodotti' className='hover_link_blue text-decoration-none text-white d-block border-bottom p-3'>
+                <Link to={'/products'} className='hover_link_blue text-decoration-none text-white d-block border-bottom p-3'>
                   <FontAwesomeIcon icon={faBox} className='me-3' />
                   Prodotti
-                </a>
+                </Link>
                 <a href='#Contatti' className='hover_link_blue text-decoration-none text-white d-block border-bottom p-3'>
                   <FontAwesomeIcon icon={faAddressBook} className='me-3' />
                   Contatti
