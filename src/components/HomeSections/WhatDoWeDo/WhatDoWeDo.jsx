@@ -6,10 +6,15 @@ import { faFireFlameCurved, faMap, faSprayCan, faWind } from '@fortawesome/free-
 
 import '../WhatDoWeDo/WhatDoWeDo.css'
 
+import Zoom from 'react-reveal/Zoom';
+
 const WhatDoWeDo = () => {
   return (
+    
     <div className='bg-dark text-white d-flex align-items-center text-center pb-5'>
+      
       <Container className='py-5'>
+      <Zoom>
         <h1 className='mb-5'>Cosa facciamo</h1>
         <Row>
           <Col sm={6} xl={3}>
@@ -37,8 +42,11 @@ const WhatDoWeDo = () => {
             </div>
           </Col>
         </Row>
+        </Zoom>
       </Container>
+      
     </div>
+    
   )
 }
 

@@ -2,8 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './page/HomePage';
 import Products from './page/Products';
 
-
-
 function App() {
   return (
     <>
